@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: GPL-2.0-only
+config SECURITY_ZTLSM
+       bool "ZT Linux Security Module"
+       depends on SECURITY
+       select SECURITYFS
+       help
+         ZTLSM is a simple Linux Security Module for experimental
+	 and research purposes.
