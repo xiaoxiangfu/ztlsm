@@ -1,0 +1,9 @@
+diff --git a/include/uapi/linux/lsm.h b/include/uapi/linux/lsm.h
+index f8aef9ade549..63435cefa46d 100644
+--- a/include/uapi/linux/lsm.h
++++ b/include/uapi/linux/lsm.h
+@@ -62,6 +62,7 @@ struct lsm_ctx {
+ #define LSM_ID_LOCKDOWN                108
+ #define LSM_ID_BPF             109
+ #define LSM_ID_LANDLOCK                110
++#define LSM_ID_ZTLSM           111
